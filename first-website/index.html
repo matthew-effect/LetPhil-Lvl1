@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A fully structured HTML page" />
+    <title>My First Website</title>
+    <style>
+        html {
+            border: solid;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to my website!</h1>
+      <p>This page contains various HTML elements we have learned</p>
+    </header>
+    <section>
+      <h2>Topics Covered</h2>
+      <ul>
+        <li>HTML Structure</li>
+        <li>Meta Tags</li>
+        <li>Headings, Paragraphs, Spans, and Divs</li>
+        <li>Lists</li>
+        <li>Tables</li>
+        <li>Forms</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Student Scores</h2>
+      <table border="1">
+        <tr>
+          <th>Name</th>
+          <th>Score</th>
+          <th>Grade</th>
+        </tr>
+        <tr>
+          <th>Billy</th>
+          <th>90</th>
+          <th>A</th>
+        </tr>
+        <tr>
+          <th>Jon</th>
+          <th>100</th>
+          <th>A</th>
+        </tr>
+        <tr>
+          <th>Sarah</th>
+          <th>70</th>
+          <th>C</th>
+        </tr>
+      </table>
+    </section>
+    <section>
+      <h2>Signup Form</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="your full name" required />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="your email" required />
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="your password" />
+        <br />
+        <label for="phonenumber">Phone number:</label>
+        <input type="tel" id="phonenumber" placeholder="your number" required />
+        <br />
+        <select id="country">
+          <option value="">Choose an option</option>
+          <option value="USA">USA</option>
+          <option value="UK">UK</option>
+          <option value="Mexico">Mexico</option>
+        </select>
+        <br />
+        <br />
+        <button type="submit">Sign up</button>
+      </form>
+    </section>
+    <footer>
+        <p>Created by JD Smith - 2026</p>
+    </footer>
+  </body>
+</html>
